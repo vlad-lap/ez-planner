@@ -1,6 +1,19 @@
 export interface Transaction {
-    date: Date;
+    id: number;
+    categoryId: number;
+    created_date: Date;
     amount: number;
-    category: string;
     description: string;
 }
+
+export interface Category {
+    id: number;
+    name: string;
+}
+
+export interface DescriptionByCategory {
+    categoryId: number;
+    description: string;
+}
+
+
