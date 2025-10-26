@@ -1,6 +1,6 @@
 import { Transaction } from './models';
 
-export const mockData: Transaction[] = [
+export const transactions: Transaction[] = [
     {
         date: new Date(),
         amount: 100,
